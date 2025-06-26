@@ -1,0 +1,45 @@
+000 (6092022.000.000) 2025-06-26 12:54:17 Job submitted from host: <192.170.240.14:9618?addrs=192.170.240.14-9618+[2605-9a00-10-200a-e63d-1aff-fe01-80e0]-9618&alias=head01.af.uchicago.edu&noUDP&sock=schedd_1008673_5bd0>
+...
+040 (6092022.000.000) 2025-06-26 13:07:47 Entered queue to transfer input files
+	Transferring to host: <192.170.241.10:9618?CCBID=192.170.240.14:9618%3faddrs%3d192.170.240.14-9618+[2605-9a00-10-200a-e63d-1aff-fe01-80e0]-9618%26alias%3dhead01.af.uchicago.edu%26noUDP%26sock%3dcollector#50942&PrivNet=af.uchicago.edu&addrs=192.170.241.10-9618+[2605-9a00-10-200a-266e-96ff-fe3e-7cf0]-9618&alias=c101.af.uchicago.edu&noUDP&sock=slot1_1_29577_6c0c_53990>
+...
+040 (6092022.000.000) 2025-06-26 13:23:10 Started transferring input files
+	Seconds spent in queue: 923
+...
+040 (6092022.000.000) 2025-06-26 13:23:10 Finished transferring input files
+...
+001 (6092022.000.000) 2025-06-26 13:23:11 Job executing on host: <192.170.241.10:9618?CCBID=192.170.240.14:9618%3faddrs%3d192.170.240.14-9618+[2605-9a00-10-200a-e63d-1aff-fe01-80e0]-9618%26alias%3dhead01.af.uchicago.edu%26noUDP%26sock%3dcollector#50942&PrivNet=af.uchicago.edu&addrs=192.170.241.10-9618+[2605-9a00-10-200a-266e-96ff-fe3e-7cf0]-9618&alias=c101.af.uchicago.edu&noUDP&sock=startd_29543_9e83>
+	SlotName: slot1_1@c101.af.uchicago.edu
+	CondorScratchDir = "/scratch/dir_2286337"
+	Cpus = 1
+	Disk = 2338
+	GPUs = 0
+	Memory = 1024
+...
+006 (6092022.000.000) 2025-06-26 13:23:20 Image size of job updated: 5108
+	1  -  MemoryUsage of job (MB)
+	840  -  ResidentSetSize of job (KB)
+...
+040 (6092022.000.000) 2025-06-26 13:28:18 Started transferring output files
+	Seconds spent in queue: 1231
+...
+040 (6092022.000.000) 2025-06-26 13:28:18 Finished transferring output files
+...
+005 (6092022.000.000) 2025-06-26 13:28:18 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:04, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:04, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	10003924  -  Run Bytes Sent By Job
+	729  -  Run Bytes Received By Job
+	10003924  -  Total Bytes Sent By Job
+	729  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.03        1         1 
+	   Disk (KB)            :  9810           1      2338 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     1        1024      1024 
+
+	Job terminated of its own accord at 2025-06-26T18:28:17Z with exit-code 0.
+...

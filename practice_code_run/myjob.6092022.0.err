@@ -1,0 +1,14 @@
+[36;1m2025-06-26 18:23:17,077	DEBUG	baseclient.py	No trace_host passed. Using rucio_host instead[0m
+[36;1m2025-06-26 18:23:17,077	DEBUG	baseclient.py	No creds passed. Trying to get it from the config file.[0m
+[36;1m2025-06-26 18:23:17,078	DEBUG	baseclient.py	HTTPS is required, but no ca_cert was passed. Trying to get it from X509_CERT_DIR.[0m
+[36;1m2025-06-26 18:23:17,078	DEBUG	baseclient.py	No account passed. Trying to get it from the RUCIO_ACCOUNT environment variable or the config file.[0m
+[36;1m2025-06-26 18:23:17,078	DEBUG	baseclient.py	No VO passed. Trying to get it from environment variable RUCIO_VO.[0m
+[36;1m2025-06-26 18:23:17,078	DEBUG	baseclient.py	No VO found. Trying to get it from the config file.[0m
+[36;1m2025-06-26 18:23:17,078	DEBUG	baseclient.py	No VO found. Using default VO.[0m
+[36;1m2025-06-26 18:23:17,078	DEBUG	baseclient.py	get a new token[0m
+[31;1m2025-06-26 18:23:17,078	ERROR	given client cert (/tmp/x509up_u15601) doesn't exist[0m
+[31;1m2025-06-26 18:23:17,078	ERROR	Cannot authenticate.
+Details: x509 authentication failed for account= with identity={'client_proxy': '/tmp/x509up_u15601'}[0m
+[31;1m2025-06-26 18:23:17,078	ERROR	Please verify that your proxy is still valid and renew it if needed.[0m
+/scratch/dir_2286337/myjob.sh: line 14: cd: data16_13TeV: No such file or directory
+cp: cannot create regular file '/myjob.output': Permission denied

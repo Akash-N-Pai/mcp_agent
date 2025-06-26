@@ -1,0 +1,19 @@
+Universe = vanilla
+
+Output = myjob.$(Cluster).$(Process).out
+Error  = myjob.$(Cluster).$(Process).err
+Log    = myjob.log
+
+Executable = myjob.sh
+
+# Optional if accessing data via X509 proxy
+# use_x509userproxy = true
+# x509userproxy = /home/akashvnp/x509proxy
+
+request_memory = 1GB
+request_cpus = 1
+
+# If your job will finish in < 4 hours, use:
++queue="short"
+
+Queue 1
