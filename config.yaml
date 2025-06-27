@@ -1,0 +1,7 @@
+agent:
+  id: condor_agent
+  name: Condor HTCondor Agent
+  description: Monitors HTCondor jobs on the AF.
+  components:
+    - id: condor_job_scraper
+      path: components/condor_job_scraper.py
